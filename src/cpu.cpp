@@ -1,9 +1,10 @@
 #include <stdint.h>
+#include <iostream>
 #include <cstdlib>
 #include <cstdio>
-#include "cpu.h"
+#include "cpu.hpp"
 
-void  Chip8::init(const char* fileName) {
+Chip8::Chip8() {
         srand(42);
         programCounter = 0x200;
         opcode = 0;
@@ -26,7 +27,6 @@ void  Chip8::init(const char* fileName) {
         for(int i = 0; i  < 16; i++) {
             stack[i] = 0;
         }
-        loadRom(fileName);
     }
 
 
@@ -48,13 +48,13 @@ void Chip8::loadRom(const char* fileName) {
         char * buffer = (char*)malloc(sizeof(char) * bufferSize);
         if (buffer == NULL) 
         {
-            fputs ("Memory error", stderr); 
+            std::cout << "Memory error" << std::endl;
         }
 
         size_t result = fread (buffer, 1, bufferSize, rom);
         if (result != bufferSize) 
         {
-            fputs("Reading error",stderr); 
+            std::cout << "Reading error" << std::endl;
         }
         if((4096-512) > bufferSize)
         {
@@ -62,7 +62,7 @@ void Chip8::loadRom(const char* fileName) {
                 memory[i + 512] = buffer[i];
         }
         else
-            printf("Error: ROM too big for memory");
+            std::cout << ("Error: ROM too big for memory") << std::endl;
         
         for(int i = 0; i < bufferSize; ++i) {
             memory[i + 0x200] = buffer[i];

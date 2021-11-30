@@ -40,7 +40,7 @@ class Chip8{
     uint8_t keys[16];
     uint32_t display[DISPLAY_HEIGHT * DISPLAY_WIDTH];
     public:
-    void init(const char* fileName);
+    Chip8();
     void loadRom(const char* fileName);
     void cycle();
     void execute();
