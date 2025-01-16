@@ -39,8 +39,14 @@ after that you can run the program by giving the path of the rom \
 ![blitz](/screenshots/sc3.png)
 
 ## References
-https://en.wikipedia.org/wiki/CHIP-8 \
-http://devernay.free.fr/hacks/chip8/C8TECH10.HTM Documentation \ 
-https://github.com/kripod/chip8-roms Chip8 ROMs \
-https://github.com/corax89/chip8-test-rom Test ROM for instructions can be found here \
-https://github.com/loktar00/chip8/blob/master/roms/Keypad%20Test%20%5BHap%2C%202006%5D.ch8 Test ROM for keyboard can be found here
+[Wiki](https://en.wikipedia.org/wiki/CHIP-8)
+
+[Documentation](http://devernay.free.fr/hacks/chip8/C8TECH10.HTM)
+
+[Chip8 ROMs](https://github.com/kripod/chip8-roms)
+
+[Test ROM for instructions](https://github.com/corax89/chip8-test-rom)
+
+[Test ROM for keyboard](https://github.com/loktar00/chip8/blob/master/roms/Keypad%20Test%20%5BHap%2C%202006%5D.ch8)
+
+
