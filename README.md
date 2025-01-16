@@ -7,7 +7,7 @@ Install sdl2 (you can install sdl2 in ubuntu by typing <code>sudo apt install li
 compile the program \
 <code>g++ main.cpp -o output -lSDL2</code> \
 run the program by giving the path of the rom \
-<code> ./output rom/BLITZ.ch8</code> \
+<code> ./output rom/BLITZ.ch8</code>
 ### Windows
 ...
 
@@ -31,4 +31,4 @@ https://en.wikipedia.org/wiki/CHIP-8 \
 http://devernay.free.fr/hacks/chip8/C8TECH10.HTM Documentation \ \
 https://github.com/kripod/chip8-roms Chip8 ROMs \
 https://github.com/corax89/chip8-test-rom Test ROM for instructions can be found here \
-https://github.com/loktar00/chip8/blob/master/roms/Keypad%20Test%20%5BHap%2C%202006%5D.ch8 Keyboard test rom can be found here \
+https://github.com/loktar00/chip8/blob/master/roms/Keypad%20Test%20%5BHap%2C%202006%5D.ch8 Keyboard test rom can be found here
