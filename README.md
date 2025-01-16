@@ -3,11 +3,11 @@ Chip8 was a VM written back in 1970s. It featured famous games such as Pacman, S
 
 ## How to run
 ### Linux
-Install sdl2 (you can install sdl2 in ubuntu by typing > sudo apt install libsdl2-dev libsdl2-2.0-0)
+Install sdl2 (you can install sdl2 in ubuntu by typing <code>sudo apt install libsdl2-dev libsdl2-2.0-0</code>
 compile the program
-> g++ main.cpp -o output -lSDL2
+<code>g++ main.cpp -o output -lSDL2</code>
 run the program by giving the path of the rom
-> ./output rom/BLITZ.ch8
+<code> ./output rom/BLITZ.ch8</code>
 ### Windows
 ...
 
@@ -26,7 +26,7 @@ A 0 B F                Z X C V
 ![space invaders](/screenshots/sc2.png)
 ![blitz](/screenshots/sc3.png)
 
-References
+## References
 https://en.wikipedia.org/wiki/CHIP-8
 http://devernay.free.fr/hacks/chip8/C8TECH10.HTM Documentation
 https://github.com/kripod/chip8-roms Chip8 ROMs
