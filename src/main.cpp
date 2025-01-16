@@ -1,7 +1,7 @@
 #include <iostream>
 #include <unistd.h>
-#include "display.h"
-#include "cpu.h"
+#include "display.hpp"
+#include "cpu.hpp"
 
 int main(int argc, char const *argv[]) {
     if(argc == 2) {
@@ -13,7 +13,7 @@ int main(int argc, char const *argv[]) {
     }
     int delayms = 12000;
     Chip8 chip8;
-    chip8.init(argv[1]);
+    chip8.loadRom(argv[1]);
     Display display;
     bool stopEmulation = false;
     while(!stopEmulation) {
