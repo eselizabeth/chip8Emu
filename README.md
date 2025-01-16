@@ -1,5 +1,6 @@
-## What is Chip8?
-Chip8 is a Virtual Machine written back in the 1970s. It featured famous games such as Pacman, Space Invaders and Pong.
+## Content
+> [Chip-8](https://en.wikipedia.org/wiki/CHIP-8) is a simple, interpreted, programming language which was first used on some do-it-yourself computer systems in the late 1970s and early 1980s.
+
 
 ## How to run
 ### Linux
@@ -10,7 +11,6 @@ after that you can run the program by giving the path of the rom \
 
 
 ## Keyboard
-
 
 
 | Chip 8 Key | Keyboard Key |
@@ -40,7 +40,7 @@ after that you can run the program by giving the path of the rom \
 
 ## References
 https://en.wikipedia.org/wiki/CHIP-8 \
-http://devernay.free.fr/hacks/chip8/C8TECH10.HTM Documentation \ \
+http://devernay.free.fr/hacks/chip8/C8TECH10.HTM Documentation \ 
 https://github.com/kripod/chip8-roms Chip8 ROMs \
 https://github.com/corax89/chip8-test-rom Test ROM for instructions can be found here \
 https://github.com/loktar00/chip8/blob/master/roms/Keypad%20Test%20%5BHap%2C%202006%5D.ch8 Test ROM for keyboard can be found here
