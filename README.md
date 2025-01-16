@@ -5,8 +5,8 @@ Chip8 is a Virtual Machine written back in the 1970s. It featured famous games s
 ### Linux
 Install sdl2 (you can install this on debian based distros by typing <code>sudo apt install libsdl2-dev</code>
 compile the program \
-just ran <code>make</code> \
-run the program by giving the path of the rom \
+just compile it by running <code>make</code> \
+after that you can run the program by giving the path of the rom \
 <code> ./chip8 rom/BLITZ.ch8</code>
 
 
