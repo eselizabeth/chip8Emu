@@ -1,4 +1,4 @@
-##What is Chip8?
+## What is Chip8?
 Chip8 was a VM written back in 1970s. It featured famous games such as Pacman, Space Invaders and Pong.
 
 ## How to run
